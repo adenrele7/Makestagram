@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="u8b-05-n3d">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="ZZU-Tb-NYT">
+            <objects>
+                <viewController id="u8b-05-n3d" customClass="LoginViewController" customModule="Makestagram" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bsZ-2H-fhH"/>
+                        <viewControllerLayoutGuide type="bottom" id="YvN-aK-0TL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5Pf-Xc-3bC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MHh-c1-EM8">
+                                <rect key="frame" x="0.0" y="20" width="375" height="214"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="Nnp-BJ-bC9">
+                                        <rect key="frame" x="12" y="64" width="350.5" height="86"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Makestagram" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TkU-0r-A3N">
+                                                <rect key="frame" x="67" y="0.0" width="216.5" height="43"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Sign up to see photos and videos from your friends" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y1B-hU-ZLb">
+                                                <rect key="frame" x="0.0" y="68" width="350.5" height="18"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.48158094620000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="265" id="ggJ-c4-ACj"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pco-RV-kOt">
+                                <rect key="frame" x="35" y="259" width="305" height="75"/>
+                                <color key="backgroundColor" red="0.40538751969999998" green="0.60570112340000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="MuC-wM-lho"/>
+                                    <constraint firstAttribute="width" constant="305" id="U5S-iN-F2q"/>
+                                    <constraint firstAttribute="height" constant="44" id="VdL-QK-vLf"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="44" id="h3N-zj-BDy"/>
+                                </constraints>
+                                <state key="normal" title="Register or Log in">
+                                    <color key="titleColor" red="0.99147710619999996" green="1" blue="0.9767167886" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.33174538120000002" green="0.090992243700000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="LoginButtonTapped:" destination="u8b-05-n3d" eventType="touchUpInside" id="VfR-ad-you"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="Pco-RV-kOt" secondAttribute="trailing" constant="35" id="2uo-v2-Ekc"/>
+                            <constraint firstAttribute="trailing" secondItem="Pco-RV-kOt" secondAttribute="trailing" constant="35" id="4ym-E5-XXN"/>
+                            <constraint firstItem="MHh-c1-EM8" firstAttribute="leading" secondItem="5Pf-Xc-3bC" secondAttribute="leading" id="GKh-CZ-nhN"/>
+                            <constraint firstAttribute="trailing" secondItem="MHh-c1-EM8" secondAttribute="trailing" id="Hf4-jR-Puk"/>
+                            <constraint firstItem="MHh-c1-EM8" firstAttribute="top" secondItem="bsZ-2H-fhH" secondAttribute="bottom" id="IJg-Lg-jPJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Pco-RV-kOt" secondAttribute="trailing" constant="35" id="JAP-XW-Uf2"/>
+                            <constraint firstItem="Pco-RV-kOt" firstAttribute="top" secondItem="MHh-c1-EM8" secondAttribute="bottom" constant="25" id="RDY-7G-q3Z"/>
+                            <constraint firstItem="Pco-RV-kOt" firstAttribute="leading" secondItem="5Pf-Xc-3bC" secondAttribute="leadingMargin" constant="35" id="jY9-R6-Oom"/>
+                            <constraint firstItem="Pco-RV-kOt" firstAttribute="leading" secondItem="5Pf-Xc-3bC" secondAttribute="leading" constant="35" id="lfJ-gJ-nTe"/>
+                            <constraint firstItem="YvN-aK-0TL" firstAttribute="top" secondItem="Pco-RV-kOt" secondAttribute="bottom" constant="333" id="th3-DJ-uj3"/>
+                            <constraint firstItem="YvN-aK-0TL" firstAttribute="top" secondItem="MHh-c1-EM8" secondAttribute="bottom" constant="433" id="zZe-2a-mzS"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="loginButton" destination="Pco-RV-kOt" id="F86-6m-LFS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4ol-l8-HtM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="164" y="-132.68365817091455"/>
+        </scene>
+    </scenes>
+</document>
