@@ -12,11 +12,12 @@
 		BD056A421F13BD200001ABF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD056A401F13BD200001ABF9 /* Main.storyboard */; };
 		BD056A441F13BD200001ABF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD056A431F13BD200001ABF9 /* Assets.xcassets */; };
 		BD056A471F13BD200001ABF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD056A451F13BD200001ABF9 /* LaunchScreen.storyboard */; };
-		BD056A4F1F13DF740001ABF9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD056A4E1F13DF740001ABF9 /* GoogleService-Info.plist */; };
-		BD056A511F13ED270001ABF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD056A501F13ED270001ABF9 /* ViewController.swift */; };
-		BD056A571F1408F20001ABF9 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD056A561F1408F20001ABF9 /* Storyboard.storyboard */; };
-		BD056A5E1F150D7B0001ABF9 /* rootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD056A5D1F150D7B0001ABF9 /* rootViewController.swift */; };
 		BD056A621F154E0C0001ABF9 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD056A611F154E0C0001ABF9 /* Login.storyboard */; };
+		DD7CDEDF1F17C9210024712E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD7CDEDE1F17C9210024712E /* GoogleService-Info.plist */; };
+		DD7CDEE31F17F8FF0024712E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7CDEE21F17F8FF0024712E /* User.swift */; };
+		DD7CDEE61F1910080024712E /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7CDEE51F1910080024712E /* CreateUsernameViewController.swift */; };
+		DD7CDEE71F19474D0024712E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD056A581F140CCD0001ABF9 /* LoginViewController.swift */; };
+		DD7CDEE91F195A4B0024712E /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7CDEE81F195A4B0024712E /* UserService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,14 +27,14 @@
 		BD056A411F13BD200001ABF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD056A431F13BD200001ABF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD056A461F13BD200001ABF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BD056A4E1F13DF740001ABF9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		BD056A501F13ED270001ABF9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BD056A521F13F09D0001ABF9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BD056A561F1408F20001ABF9 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = Storyboards/Storyboard.storyboard; sourceTree = "<group>"; };
 		BD056A581F140CCD0001ABF9 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		BD056A5D1F150D7B0001ABF9 /* rootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rootViewController.swift; sourceTree = "<group>"; };
 		BD056A611F154E0C0001ABF9 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		D430E9D0BF78F00E6DE149E6 /* Pods-Makestagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.debug.xcconfig"; sourceTree = "<group>"; };
+		DD7CDEDE1F17C9210024712E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DD7CDEE21F17F8FF0024712E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DD7CDEE51F1910080024712E /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateUsernameViewController.swift; sourceTree = "<group>"; };
+		DD7CDEE81F195A4B0024712E /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		F83B043360043B86E1027E0C /* Pods_Makestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -91,7 +92,9 @@
 				BD056A5A1F140CD90001ABF9 /* View Controller */,
 				BD056A551F14085F0001ABF9 /* Storyboards */,
 				BD056A431F13BD200001ABF9 /* Assets.xcassets */,
+				DD7CDEEA1F195A660024712E /* Services */,
 				BD056A541F1400360001ABF9 /* Supporting Files */,
+				DD7CDEE41F17F9F90024712E /* Models */,
 			);
 			path = Makestagram;
 			sourceTree = "<group>";
@@ -99,9 +102,9 @@
 		BD056A541F1400360001ABF9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DD7CDEDE1F17C9210024712E /* GoogleService-Info.plist */,
 				BD056A451F13BD200001ABF9 /* LaunchScreen.storyboard */,
 				BD056A521F13F09D0001ABF9 /* Info.plist */,
-				BD056A4E1F13DF740001ABF9 /* GoogleService-Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -110,7 +113,6 @@
 			isa = PBXGroup;
 			children = (
 				BD056A401F13BD200001ABF9 /* Main.storyboard */,
-				BD056A561F1408F20001ABF9 /* Storyboard.storyboard */,
 				BD056A611F154E0C0001ABF9 /* Login.storyboard */,
 			);
 			name = Storyboards;
@@ -119,11 +121,26 @@
 		BD056A5A1F140CD90001ABF9 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
-				BD056A501F13ED270001ABF9 /* ViewController.swift */,
 				BD056A581F140CCD0001ABF9 /* LoginViewController.swift */,
-				BD056A5D1F150D7B0001ABF9 /* rootViewController.swift */,
+				DD7CDEE51F1910080024712E /* CreateUsernameViewController.swift */,
 			);
 			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		DD7CDEE41F17F9F90024712E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DD7CDEE21F17F8FF0024712E /* User.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		DD7CDEEA1F195A660024712E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DD7CDEE81F195A4B0024712E /* UserService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,11 +207,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD056A471F13BD200001ABF9 /* LaunchScreen.storyboard in Resources */,
-				BD056A4F1F13DF740001ABF9 /* GoogleService-Info.plist in Resources */,
 				BD056A621F154E0C0001ABF9 /* Login.storyboard in Resources */,
 				BD056A441F13BD200001ABF9 /* Assets.xcassets in Resources */,
 				BD056A421F13BD200001ABF9 /* Main.storyboard in Resources */,
-				BD056A571F1408F20001ABF9 /* Storyboard.storyboard in Resources */,
+				DD7CDEDF1F17C9210024712E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,7 +244,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		F26A7F3B3463D7A7D3199E05 /* [CP] Embed Pods Frameworks */ = {
@@ -253,8 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD056A511F13ED270001ABF9 /* ViewController.swift in Sources */,
-				BD056A5E1F150D7B0001ABF9 /* rootViewController.swift in Sources */,
+				DD7CDEE71F19474D0024712E /* LoginViewController.swift in Sources */,
+				DD7CDEE91F195A4B0024712E /* UserService.swift in Sources */,
+				DD7CDEE31F17F8FF0024712E /* User.swift in Sources */,
+				DD7CDEE61F1910080024712E /* CreateUsernameViewController.swift in Sources */,
 				BD056A3D1F13BD1F0001ABF9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
